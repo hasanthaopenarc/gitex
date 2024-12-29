@@ -32,18 +32,15 @@
 	<option >-------</option>
 	<option value="acad">AutoCAD</option>
 	<option value="excel">MS Excel</option>
+	<option value="word">MS Word</option>
 	
 </select>
-
-<br>
-<br>
 <br>
 <br>
 <div id="demo">
 </div>
 
 <script>
-
 function display(id){
 
   const xhttp = new XMLHttpRequest();
@@ -54,11 +51,7 @@ function display(id){
   
   xhttp.open("GET", "course_details.php?id="+id,true);
   xhttp.send();
-
-
 }
-
 </script>
-
 </body>
 </html>
